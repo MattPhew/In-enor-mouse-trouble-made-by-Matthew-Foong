@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  font-family: 'Julee', cursive;
+}
+
+.context {
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 270px;
+  text-shadow: 1px 1px 10px 1px white;
+}
+
+img {
+  width: 550px;
+  height: 480px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+  top: 90px;
+  right: 50px;
+}
+
+.choiceOne:hover, .choiceTwo:hover, .choiceThree:hover {
+    box-shadow: 0px 1px 20px 0px rgba(200, 235, 26, 0.7),
+            1px 2px 20px 0px rgba(232, 172, 77, 0.7),
+            4px 4px 100px 0px rgba(200, 235, 26, 0.7),
+            2px 4px 20px 0px rgba(232, 172, 77, 0.7);
+}
+.choiceTwo, .choiceThree {
+  display: none;
+  width: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Julee', cursive; 
+}
+
+.choiceThree {
+  position: absolute;
+  top: 280px;
+  left: 180px;
+}
+
+.choiceTwo {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+
+}
+
+.choiceOne {
+  width: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 180px;
+  font-family: 'Julee', cursive;
+}
+.healthOne {
+  background-color: white;
+  border-radius: 10px;
+  width: 190px;
+  position: absolute;
+  bottom: 50px;
+  right: 410px;
+  display: none;
+}
+
+.healthTwo {
+  background-color: lightgrey;
+  border-radius: 10px;
+  width: 175px;
+  text-align: left;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 5px;
+}
+
